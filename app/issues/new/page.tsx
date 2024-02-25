@@ -31,6 +31,7 @@ const NewIssuePage = () => {
 
 		} catch (error) {
 			setSubmitting(false);
+			console.log(error)
 			setError('Unexpected error occurred. Please try again.');
 		}
 	}
